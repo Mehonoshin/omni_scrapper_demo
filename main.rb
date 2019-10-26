@@ -1,5 +1,4 @@
-require './scrappers/scrappers'
-require 'pry'
+require 'omni_scrapper'
 
 data = {
   "type"=>"object",

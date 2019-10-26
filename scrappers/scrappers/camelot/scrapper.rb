@@ -3,7 +3,7 @@
 require 'pry'
 OmniScrapper.setup(:camelot) do |config|
   config.schema ::Scrappers::AdsSchema
-  config.crawler ::Scrappers::Gallery
+  config.crawler :gallery
 
   config.entrypoint 'https://www.cmlt.ru/ads--rubric-88'
   config.next_page_link '→'

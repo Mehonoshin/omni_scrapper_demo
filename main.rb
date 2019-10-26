@@ -10,7 +10,7 @@ data = {
   }
 }
 
-OmniScrapper.setup(:camelot) do |config|
+result = OmniScrapper.setup(:camelot) do |config|
   config.schema data
   config.crawler :gallery
 
@@ -38,4 +38,4 @@ OmniScrapper.setup(:camelot) do |config|
   #config.field :comments, method: :scrap_comments
 end
 
-Scrappers::Camelot::Scrapper.run { |data| p data }
+result.run { |data| p data }

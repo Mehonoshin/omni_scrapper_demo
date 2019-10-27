@@ -16,7 +16,7 @@ result = OmniScrapper.setup(:camelot) do |config|
 
   config.entrypoint 'https://www.cmlt.ru/ads--rubric-88'
   config.next_page_link '→'
-  config.ad_page_link /ad-\w+/
+  config.page_link /ad-\w+/
   config.id_within_site /ad-(.+)/
 
   config.field :name, selector: '//*[@id="MainContentTable"]/div[1]/table/tbody/tr/td[1]/h1/span'

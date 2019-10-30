@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/Mehonoshin/omni_scrapper.git
-  revision: 4ca931bafd03cf1c52a45c35b3cc98cfde8d109e
+  revision: 7e133880d030aece2fbbcc7bbe9c11c622c575fc
   specs:
     omni_scrapper (2.0.0.beta1)
       ferrum
@@ -10,13 +10,13 @@ GIT
 GEM
   remote: https://rubygems.org/
   specs:
-    addressable (2.6.0)
-      public_suffix (>= 2.0.2, < 4.0)
+    addressable (2.7.0)
+      public_suffix (>= 2.0.2, < 5.0)
     cliver (0.3.2)
     coderay (1.1.2)
     concurrent-ruby (1.1.5)
     connection_pool (2.2.2)
-    domain_name (0.5.20180417)
+    domain_name (0.5.20190701)
       unf (>= 0.0.5, < 1.0.0)
     ferrum (0.6.2)
       addressable (~> 2.6)
@@ -37,12 +37,12 @@ GEM
       ntlm-http (~> 0.1, >= 0.1.1)
       webrobots (>= 0.0.9, < 0.2)
     method_source (0.9.2)
-    mime-types (3.2.2)
+    mime-types (3.3)
       mime-types-data (~> 3.2015)
-    mime-types-data (3.2019.0331)
+    mime-types-data (3.2019.1009)
     mini_portile2 (2.4.0)
     net-http-digest_auth (1.4.1)
-    net-http-persistent (3.0.1)
+    net-http-persistent (3.1.0)
       connection_pool (~> 2.2)
     nokogiri (1.10.4)
       mini_portile2 (~> 2.4.0)
@@ -50,7 +50,7 @@ GEM
     pry (0.12.2)
       coderay (~> 1.1.0)
       method_source (~> 0.9.0)
-    public_suffix (3.1.0)
+    public_suffix (4.0.1)
     unf (0.1.4)
       unf_ext
     unf_ext (0.0.7.4)

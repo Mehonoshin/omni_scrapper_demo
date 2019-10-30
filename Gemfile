@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'nokogiri', '1.8.4'
+gem 'nokogiri', '1.10.4'
 gem 'unf_ext', '0.0.7.4'
 gem 'json-schema'
 gem 'mechanize'

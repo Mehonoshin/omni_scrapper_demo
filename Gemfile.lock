@@ -1,7 +1,7 @@
 PATH
   remote: ../omni_scrapper
   specs:
-    omni_scrapper (1.0.1)
+    omni_scrapper (2.0.0.beta1)
       mechanize
 
 GEM

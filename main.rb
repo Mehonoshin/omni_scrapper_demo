@@ -22,9 +22,9 @@ result = OmniScrapper.setup(:camelot) do |config|
   # Initial page where crawler starts its journey
   config.entrypoint 'https://www.cmlt.ru/ads--rubric-88'
   # A text on the link, which leads crawler to the next page in the list
-  config.next_page_link '→'
+  config.next_page_link '//*[@id="MainContentTable"]/div[6]/a[9]'
   # A pattern that allows crawler to detect links to specific pages, that should contain actual data
-  config.page_link /ad-\w+/
+  config.page_link '//*[@id="ans-list-box"]/div[*]/div/a'
   # A pattern in specific page URL, which defines it's unique ID
   config.id_within_site /ad-(.+)/
 
@@ -33,6 +33,7 @@ result = OmniScrapper.setup(:camelot) do |config|
   config.field :name, selector: '//*[@id="MainContentTable"]/div[1]/table/tbody/tr/td[1]/h1/span'
   config.field :description,
     selector: '//*[@id="MainContentTable"]/div[1]/div/div[1]/div/div[4]'
+  config.field :phone, selector: '//*[@id="an-contacts-block"]/div[2]/div[1]/div[2]/span[1]'
 
   # Example of additional options that may be passed to field
   #config.field :age,

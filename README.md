@@ -17,7 +17,7 @@ bundle install
 Start scrapping
 
 ```
-bundle exec ruby main.rb
+./start
 ```
 
 Keep an eyey on stdout for scrapping results.

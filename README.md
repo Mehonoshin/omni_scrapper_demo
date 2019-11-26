@@ -17,7 +17,12 @@ bundle install
 Start scrapping
 
 ```
-./start
+./start main
 ```
 
-Keep an eyey on stdout for scrapping results.
+Keep an eye on stdout for scrapping results.
+
+## Dockerized
+
+* `docker build -t omniscrapper/demo .`
+* `docker run omniscrapper/demo`

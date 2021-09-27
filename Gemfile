@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'nokogiri', '1.10.4'
+gem 'nokogiri', '1.12.5'
 gem 'unf_ext', '0.0.7.4'
 gem 'omni_scrapper', github: 'Mehonoshin/omni_scrapper'#path: '~/p/omniscrapper/omni_scrapper'#
 
